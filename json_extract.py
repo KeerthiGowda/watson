@@ -22,5 +22,6 @@ for word in fp:
 
     emotion_list = sorted(json_dict["doc-emotion"], key=json_dict["doc-emotion"].__getitem__)
     print("Your patner's current feeling : " + str(emotion_list[-1]))
+	#if(
     break
 fp.close()
